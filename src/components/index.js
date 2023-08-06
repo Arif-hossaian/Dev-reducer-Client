@@ -146,7 +146,6 @@ useEffect(() => {
           fullWidth
           margin="normal"
           helperText={errors.title}
-          required
         />
         <TextField
         error={!!errors.description}
